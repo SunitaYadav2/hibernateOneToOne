@@ -38,6 +38,12 @@ public class MainClass {
 		//Account ac3= new Account("General",50000,cst3);
         
        // session.save(ac3);
+		 
+			
+			Customer cs3= new Customer("sanunita"," su@12.com");
+			Account ac3= new Account("savingA",150000,cs3);
+			  session.save(ac3);
+			
         
         
         //------------    
